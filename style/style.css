@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-color: #635854;
+    border-bottom: 4px solid #3596F5;
+    
+}
+.navbar {
+    max-width: 1278px;
+    margin: auto; /* одинаковые отступы внутри шапки */
+    display: flex; /* елементы внутри navbar идут друг за другом горизонтально*/
+    justify-content: space-between; /* елементы внутри располагаются по строронам с равной отдаленностью */
+    align-items: center; /* елементы отцентруются по вертикали */
+}
+
+.navbar-menu {
+    margin: 0; /* отключить внешние отступы */
+    padding: 0; /* отключить внутрение отступы */
+    list-style: none; /* отключить точки у списка */
+    display: flex;  /* елементы идут друг за другом горизонтально*/
+    text-align: center; /* текст внутри каждого элемента отцентрировался*/
+}
+
+.navbar-item {
+    margin: 9px 40px;
+}
+
+.navbar-link{
+    text-decoration: none; /* убрать подчеркивание ссылки */
+    color: white;
+}
+
+.navbar-contacts {
+    text-align: right; /* выровнять по правой строне */
+
+}
+
+.navbar-text {
+    color: white;
+    display: block; /* так как span - строчный эл. то его нужно сделать блочным что бы строка была не в ряд, а под другой */
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.navbar-phone {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+
