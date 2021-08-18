@@ -2,5 +2,5 @@
 
 ### Технологии:
 - js
--html
--css
+- html
+- css
