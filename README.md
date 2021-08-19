@@ -3,6 +3,6 @@
 ## https://lanebx.github.io/melody/
 
 ### Технологии:
-- js
+- js (jquery)
 - html
 - css
