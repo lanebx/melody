@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Bebas Neue Regular";
+    src: url('../fonts/BebasNeueRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -64,6 +71,15 @@
 .info {
     flex-grow: 1; /* элемент занял все свободное место */
     text-align: center;
+    align-items: center;
+    display:grid;
+}
+
+.main-text-info {
+    font-family: "Bebas Neue Regular";
+    font-size: 37px;
+    line-height: 44px;
+    color: #635854;
 }
 
 .svg-home-image path {
@@ -86,4 +102,3 @@
     background-color: white;
     transform: rotateX(180deg);
 }
-
