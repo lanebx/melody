@@ -54,3 +54,9 @@
     font-size: 17px;
 }
 
+.main {
+    display: flex;
+    margin: auto;
+    max-width: 1278px;
+    margin-top: 58px;
+}
