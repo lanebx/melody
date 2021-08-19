@@ -134,3 +134,7 @@
     border: none;
     cursor: pointer;
 }
+
+path.select-floor {
+    opacity: 1;
+}
