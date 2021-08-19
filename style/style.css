@@ -71,8 +71,18 @@
 .info {
     flex-grow: 1; /* элемент занял все свободное место */
     text-align: center;
+    display: grid;  /* сделать сеткой, что бы сожно было центрировать ниже */
     align-items: center;
-    display:grid;
+    
+    /*  Или использовать такой вариант:
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    */
 }
 
 .main-text-info {
@@ -80,6 +90,16 @@
     font-size: 37px;
     line-height: 44px;
     color: #635854;
+    
+}
+
+.floor-counter {
+    font-family: "Bebas Neue Regular";
+    font-size: 74px;
+    margin: 30px 0;
+    color: #635854;
+    padding: 0;
+    line-height: 70px;
 }
 
 .svg-home-image path {
@@ -95,10 +115,22 @@
 .arrow-up {
     border: none;
     background-color: white;
+    cursor: pointer;
 }
 
 .arrow-down {
     border: none;
     background-color: white;
     transform: rotateX(180deg);
+    cursor: pointer;
+}
+
+.button-select-floor {
+    width: 297px;
+    height: 51px;
+    background: #3596F5;
+    color:white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
 }
