@@ -60,3 +60,30 @@
     max-width: 1278px;
     margin-top: 58px;
 }
+
+.info {
+    flex-grow: 1; /* элемент занял все свободное место */
+    text-align: center;
+}
+
+.svg-home-image path {
+    opacity: 0; /* прозрачность, скрыть этажи  */
+}
+
+.svg-home-image path:hover {
+    opacity: 1; /* благодаря hover при наведении на этаж элемент появляется  */
+    cursor: pointer; /* курсор пальчик */
+
+}
+
+.arrow-up {
+    border: none;
+    background-color: white;
+}
+
+.arrow-down {
+    border: none;
+    background-color: white;
+    transform: rotateX(180deg);
+}
+
