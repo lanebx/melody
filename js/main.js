@@ -11,6 +11,10 @@ $(document).ready( function () {
         $(`[data-floor = ${selectFloor}]`).toggleClass("select-floor");
     } );
 
+    $('.svg-home-image path').on('mouseover', function () {
+        $('.svg-home-image path').removeClass("select-floor");
+    } );
+
     /* функция при нажатии на стрелку увиличитвает счетчик и подсвечивает этаж */
     counterUp.on( 'click', function() {
         if (selectFloor >= 18) return;
