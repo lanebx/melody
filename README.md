@@ -1,6 +1,7 @@
 # melody - Учебный проект
 
-## https://lanebx.github.io/melody/
+### DEMO(https://lanebx.github.io/melody/)
+
 
 ### Технологии:
 - js (jquery)
