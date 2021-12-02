@@ -1,6 +1,6 @@
 # melody - Учебный проект
 
-### DEMO(https://lanebx.github.io/melody/)
+- [DEMO LINK](https://lanebx.github.io/melody/)
 
 
 ### Технологии:
